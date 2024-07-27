@@ -1,0 +1,61 @@
+:root{
+    --yellow: #f4d04e;
+    --dkgray: #111111;
+    --ltgray: #6b6b6b;
+    --white: #ffffff;
+}
+
+body{
+    background-color: var(--yellow);
+    margin: 0;
+    min-height: 125svh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Figtree';
+    letter-spacing: 0px;
+    line-height: 150%;
+}
+
+section{
+    max-width: 375px;
+    background-color: var(--white);
+    border-radius: 20px;
+    outline: solid black;
+    box-shadow: 15px 15px var(--dkgray);
+    padding: 25px;
+}
+
+section img{
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    margin: auto;
+}
+
+.learning{
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 5px 15px;
+    background-color: #f4d04e;
+    width: 17%;
+}
+
+.publish{
+    padding-top: 20px;
+}
+
+.contact-name{
+    display: flex;
+    float: left;
+    font-weight: bold;
+}
+
+.contact-name img{
+    width: 50px;
+    margin: 0;
+    padding-right: 15px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
